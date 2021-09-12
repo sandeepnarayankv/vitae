@@ -1,0 +1,36 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://sandeepnarayankv.github.io/vitae
+author: Sandeep Narayan Kizhakke Veettil
+
+# edit this section with your information
+# jekyllt.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /vitae/
+title: Sandeep Narayan's Resume
+name: Sandeep Narayan Kizhakke Veettil
+email: sandeep.narayan,kv@@gmail.com
+email_full: mailto:sandeep.narayan,kv@@gmail.com
+website: github.io/mysite
+website_full: https://sandeepnarayankv.github.io/mysite
+github: sandeepnarayankv
+twitter: sandeepnkv
+tel: +91 99867 14400
+tel_full: tel:+919986714400
+google_maps: 'https://www.google.com/maps/place/Pristine+Meadows/@13.0924176,77.6344388,15z/data=!4m2!3m1!1s0x0:0x36941aadbea48ccf?sa=X&ved=2ahUKEwix2L654_nyAhVWT30KHRW5CJMQ_BJ6BAhCEAU'
+address:
+  street: 1306, Pristine Meadows, Thirumenahalli
+  postcode: 560064
+  city: Bangalore
+  country: India
+# google_analytics: UA-69300817-1
+
+# needed for travis-ci build
+exclude: [vendor]
